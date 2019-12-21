@@ -1,2 +1,2 @@
 # Left Click Only
-Disable all rightclicks
+Disable all mouse buttons but one.

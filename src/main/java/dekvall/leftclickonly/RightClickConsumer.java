@@ -25,14 +25,10 @@
 package dekvall.leftclickonly;
 
 import java.awt.event.MouseEvent;
-import javax.inject.Inject;
 import net.runelite.client.input.MouseAdapter;
 
 public class RightClickConsumer extends MouseAdapter
 {
-	@Inject
-	private LeftClickOnlyPlugin plugin;
-
 	@Override
 	public MouseEvent mouseClicked(MouseEvent event)
 	{
